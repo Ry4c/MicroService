@@ -22,7 +22,7 @@ public class OrderService {
     private final OrderRepo orderRepo;
     private final WebClient webClient;
 
-    public void placeOrder(OrderRequest orderRequest) {
+    public String placeOrder(OrderRequest orderRequest) {
         Order order = new Order();
         order.setOrderNumber(UUID.randomUUID().toString());
 
@@ -42,7 +42,11 @@ public class OrderService {
                 .blockOptional().orElseThrow(()-> new IllegalArgumentException("product is not in stock"));
 
         boolean allMatch = Arrays.stream(result).allMatch(InventoryResponse::isInStock);
-        if (allMatch) orderRepo.save(order);
+        if (allMatch){
+            orderRepo.save(order);
+            return "Oder Placed Successfully";
+        }
+        return "Something's Out Of Stock";
     }
 
     private OderLineItem mapToDto(OderLineItemDto oderLineItemDto) {
