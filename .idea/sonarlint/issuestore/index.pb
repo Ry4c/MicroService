@@ -11,14 +11,10 @@ I
 inventory-service/pom.xml,e\3\e347da292c40d252c508703eddff460d1f378f1c
 z
 Jorder-service/src/main/java/com/demo/orderservice/dto/OderLineItemDto.java,d\f\df089557c421ccf401beecf5285d35e0fde7bb85
-s
-Corder-service/src/main/java/com/demo/orderservice/package-info.java,d\a\da94a6ebc06ea6ffddf1f36901ad25f85c3bb100
 }
 Morder-service/src/main/java/com/demo/orderservice/config/WebClientConfig.java,3\6\36d478ff655630f0701d0e79f3e19559338dda88
 {
 Korder-service/src/main/java/com/demo/orderservice/service/OrderService.java,6\a\6a24d9e3436dfdcd61c40dfb6b28236556c63477
-„
-Tinventory-service/src/main/java/com/demo/inventoryservice/dto/InventpryResponse.java,7\2\726a2d38649818d2dca46a6e75fef06423aa68fb
 „
 Tinventory-service/src/main/java/com/demo/inventoryservice/dto/InventoryResponse.java,d\d\dd7eb019f33536f75a8643d3f8916bc9973f25b8
 ‡
@@ -37,3 +33,9 @@ w
 Gorder-service/src/main/java/com/demo/orderservice/dto/OrderRequest.java,2\a\2a39cb336f967c56237cc4494deb79e200acc0ce
 ~
 Norder-service/src/main/java/com/demo/orderservice/OrderServiceApplication.java,6\8\68af15e52bdd14f0f65e3afa900bd884357d68fb
+„
+Tproduct-service/src/main/java/com/demo/productservice/ProductServiceApplication.java,0\0\00485f762c1dc39aa6e9f462d01872730a51e738
+H
+discovery-server/pom.xml,2\c\2c58c7878e43d126fc56cae853d5b06de57d0b3e
+†
+Vdiscovery-server/src/main/java/org/demo/discoverySever/DiscoveryServerApplication.java,a\9\a91f649df00fb32f5e1af4ef7ea55ecc54b01c1b
