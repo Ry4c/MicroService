@@ -37,3 +37,11 @@ H
 discovery-server/pom.xml,2\c\2c58c7878e43d126fc56cae853d5b06de57d0b3e
 †
 Vdiscovery-server/src/main/java/org/demo/discoverySever/DiscoveryServerApplication.java,a\9\a91f649df00fb32f5e1af4ef7ea55ecc54b01c1b
+C
+api-gateway/pom.xml,2\b\2bfa2b108f2439e99e004f4085b58c22cf995f73
+\
+,api-gateway/src/main/java/org/demo/Main.java,9\c\9c87b6500b7a098052870cd574f8264890a7dd72
+x
+Hapi-gateway/src/main/java/org/demo/apiGateway/ApiGatewayApplication.java,3\7\37096dfa2bba50d50c3530f0efc7f82a7013a7a6
+x
+Hapi-gateway/src/main/java/org/demo/apigateway/ApiGatewayApplication.java,7\1\713660dd48962bf67df3f85591cb7889f6230efa
